@@ -1,7 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import { PizzaCardContainer, Price } from "./styled";
-import { CircularProgress } from "@mui/material";
+import { PizzaCardContainer } from "./styled";
 import Button from "@mui/material/Button/Button";
 import GlobalContext from "../../context/GlobalContext";
 

@@ -46,8 +46,6 @@ export default function GlobalProvider(props) {
         });
         localStorage.removeItem("cart");
         setCart([]);
-
-        console.log(response.data.order);
       })
       .catch((error) => {
         console.log(error);

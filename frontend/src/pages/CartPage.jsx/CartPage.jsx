@@ -1,9 +1,7 @@
 import React, { useContext, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import GlobalContext from "../../context/GlobalContext";
 import { CartCard, CartPageContainer } from "./styled";
-import { Button, CircularProgress, IconButton } from "@mui/material";
-import PizzaCard from "../../components/PizzaCard/PizzaCard";
+import { Button, IconButton } from "@mui/material";
 
 import RemoveRoundedIcon from "@mui/icons-material/RemoveRounded";
 import AddRoundedIcon from "@mui/icons-material/AddRounded";
@@ -13,10 +11,6 @@ import OrderSuccessPopUp from "../../components/OrderSuccessPopUp/OrderSuccessPo
 const CartPage = () => {
   const { cart, createOrder, addToCart, removeFromCart, setCart, orderStatus } =
     useContext(GlobalContext);
-
-  const navigate = useNavigate();
-
-  useEffect(() => {}, []);
 
   let itemNumber = 0;
   let total = 0;
