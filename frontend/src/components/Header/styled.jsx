@@ -32,7 +32,6 @@ export const HeaderContainer = styled.div`
         margin: 0;
         color: white;
         font-size: 10px;
-        font-weight: 5;
       }
     }
   }
