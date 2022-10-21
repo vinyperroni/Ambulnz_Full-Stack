@@ -34,7 +34,10 @@ const Header = (props) => {
         <div></div>
       ) : cart.length > 0 ? (
         <IconButton color="secondary">
-          <div>{totalQuantity}</div>
+          <div>
+            <p>{totalQuantity}</p>
+          </div>
+
           <ShoppingCartRoundedIcon
             fontSize="large"
             onClick={() => navigate("cart")}
