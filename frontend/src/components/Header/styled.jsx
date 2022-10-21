@@ -26,11 +26,14 @@ export const HeaderContainer = styled.div`
       background-color: purple;
       border-radius: 100px;
       border: 1px solid grey;
-      font-size: 10px;
-      font-weight: 5;
-      color: white;
       top: 1px;
       right: 1px;
+      > p {
+        margin: 0;
+        color: white;
+        font-size: 10px;
+        font-weight: 5;
+      }
     }
   }
   h1 {
