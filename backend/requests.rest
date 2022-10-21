@@ -1,0 +1,25 @@
+### Ping
+GET http://localhost:3003/ping
+
+### Get Pizzas
+GET http://localhost:3003/api/pizzas
+Content-Type: application/json
+
+### Get Orders
+
+GET http://localhost:3003/api/orders
+Content-Type: application/json
+
+### Create Order
+
+POST http://localhost:3003/api/orders
+Content-Type: application/json
+
+{
+"pizzas": [
+  {
+    "name": "Bufala",
+    "price": 6,
+    "quantity": 4
+  }
+]}
