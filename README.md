@@ -3,9 +3,10 @@
 > Status do Projeto: Concluido :heavy_check_mark:.
 LINK : [Clique Aqui](http://ec2-44-202-148-17.compute-1.amazonaws.com:3000/)
 
-API BASE_URL (Segue arquivo .rest com os endpoints configurados): 
+#### API BASE_URL (Segue arquivo .rest com os endpoints configurados): 
 
 Pizzas: http://ec2-44-202-148-17.compute-1.amazonaws.com:3003/api/pizzas
+
 Pedidos: http://ec2-44-202-148-17.compute-1.amazonaws.com:3003/api/orders
 
 ## Descrição do Projeto
